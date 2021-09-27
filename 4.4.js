@@ -3,7 +3,7 @@ let random = [];
 let arr= new Array;
 let sum = 0;
 let max = 0;
-let min = 0;
+let min = 10;
 /* 
 Return the average value of an array
 @param (array) arr: Evaluated array
