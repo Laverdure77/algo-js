@@ -1,7 +1,11 @@
 // Variables definition;
 let array1 = [1,2,3,4,5,6,7,8,9];
 
-//Function definition;
+/*Function definition;
+swap two elements of an array,
+@param array: array to be swapped,
+@param indexA: postion in the array that will change value,
+@param indexB: position of the new value */
 function swapElement (array, indexA, indexB) {
     tmp = array[indexA];
     array[indexA] = array[indexB];
